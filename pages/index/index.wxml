@@ -1,1 +1,27 @@
-<view class="index"><view class="top"><swiper class="swiper" circular indicator-dots="{{b}}" autoplay="{{c}}" interval="{{d}}" duration="{{e}}"><swiper-item wx:for="{{a}}" wx:for-item="item" wx:key="b"><image src="{{item.a}}" mode=""></image></swiper-item></swiper></view><view class="middle"><van-grid wx:if="{{r0}}" u-t="m" u-i="aea7e334-0" bind:__l="__l" u-p="{{h}}"><van-grid-item wx:for="{{f}}" wx:for-item="item" wx:key="c" bindtap="{{item.d}}" u-t="m" u-i="{{item.e}}" bind:__l="__l" u-p="{{g}}"><view class="pics"><image src="{{item.a}}" mode=""></image></view><view class="comname"><text>{{item.b}}</text></view></van-grid-item></van-grid></view></view>
+<view class="index-page">
+  <!-- 顶部轮播图 -->
+  <view class="top">
+    <swiper class="swiper" circular indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <swiper-item wx:for="{{src}}" wx:key="item">
+        <image src="{{item}}" mode=""></image>
+      </swiper-item>
+    </swiper>
+  </view>
+
+  <!-- 中部内容 -->
+  <view class="middle">
+    <van-grid column-num="3" gutter="2" border="{{false}}">
+      <van-grid-item wx:for="{{src}}" wx:key="item" bindtap="GotoOrder">
+        <view class="pics">
+          <image src="{{item}}" mode=""></image>
+        </view>
+      </van-grid-item>
+    </van-grid>
+  </view>
+
+  <!-- 底部 tabBar -->
+  <van-tabbar active="{{activeTabbar}}" bind:change="onChangeTabbar" active-color="#07c160">
+    <van-tabbar-item icon="home-o" text="首页"></van-tabbar-item>
+    <van-tabbar-item icon="user-o" text="信息"></van-tabbar-item>
+  </van-tabbar>
+</view>
