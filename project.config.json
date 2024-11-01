@@ -1,0 +1,33 @@
+{
+  "description": "项目配置文件。",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "setting": {
+    "urlCheck": false,
+    "es6": true,
+    "postcss": false,
+    "minified": true,
+    "newFeature": true,
+    "bigPackageSizeSupport": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "condition": true,
+    "uglifyFileName": true
+  },
+  "compileType": "miniprogram",
+  "libVersion": "3.1.4",
+  "appid": "wxc80cdc8fbda55b7b",
+  "projectname": "sd",
+  "condition": {},
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  },
+  "cloudfunctionRoot": "public/",
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate/"
+}

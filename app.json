@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/Order/Order",
+    "pages/complete/complete",
+    "pages/demo/demo"
+  ],
+  "usingComponents": {
+    "van-button": "wxcomponents/vant-weapp/button/index",
+    "van-grid": "wxcomponents/vant-weapp/grid/index",
+    "van-grid-item": "wxcomponents/vant-weapp/grid-item/index",
+    "van-datetime-picker": "wxcomponents/vant-weapp/datetime-picker/index",
+    "van-divider": "wxcomponents/vant-weapp/divider/index",
+    "van-field": "wxcomponents/vant-weapp/field/index",
+    "van-icon": "wxcomponents/vant-weapp/icon/index",
+    "van-popup": "wxcomponents/vant-weapp/popup/index",
+    "van-cascader": "wxcomponents/vant-weapp/cascader/index",
+    "van-calendar": "wxcomponents/vant-weapp/calendar/index",
+    "van-picker": "wxcomponents/vant-weapp/picker/index",
+    "van-empty": "wxcomponents/vant-weapp/empty/index",
+    "van-uploader": "wxcomponents/vant-weapp/uploader/index",
+    "van-radio": "wxcomponents/vant-weapp/radio/index",
+    "van-radio-group": "wxcomponents/vant-weapp/radio-group/index"
+  },
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#fbfaf6"
+  }
+}

@@ -1,0 +1,10 @@
+
+.img{
+		width: 100vw;
+}
+.boxs{ 
+		text-align: center;
+		font-size: 28rpx;
+		margin-top: 20rpx;
+		width: 100%;
+}
